@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farewell Askout</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background-color: #f4e0f4;
+            margin: 20px;
+        }
+        #invitation {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #ff5e78;
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #333;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #ff5e78;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #d94155;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="invitation">
+        <h1>Microbus Farewell</h1>
+        <p>🌟 Dear Anushka 🌟</p>
+        <p>✨ Chand se guftagu karke, sitaron se raaz khol ke,
+            Tere saath bitaaye har pal ko, main kuch khaas banaana chahta hoon.✨</p>
+        <p>🌈 Tomorrow holds the promise of an unforgettable moment, where time slows and magic fills the air. Will you join me in making this day a cherished memory as my date?🌈</p>
+        
+        <button onclick="confirmResponse('Yes')">Absolutely, I'd love to!</button>
+        
+    </div>
+
+    <script>
+        function confirmResponse(response) {
+            alert("You clicked: " + response);
+        }
+    </script>
+
+</body>
+</html>
